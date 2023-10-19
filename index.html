@@ -17,78 +17,12 @@
             <h1>내배캠 최고 평점 영화 콜렉션</h1>
         </header>
         <div class="input-group">
-            <input type="text" class="form-control" placeholder="영화 검색" aria-label="Input group example" aria-describedby="btnGroupAddon">
-            <button type="button" class="btn btn-outline-light">검색</button>
+            <input id = "search" type="text" class="form-control" onkeyup="enterkey()" placeholder="영화 검색" aria-label="Input group example" aria-describedby="btnGroupAddon">
+            <button type="button" onclick="searchMovie()" class="btn btn-outline-light">검색</button>
         </div>
-        <button type="button" id="btn_alert" class="btn btn-outline-light">alert test</button>
     </div>
     <div class="myCards">
         <div id="card" class="row row-cols-1 row-cols-md-4 g-4">
-            <div class="col">
-                <div class="card h-100">
-                    <img src="https://thumb.mtstarnews.com/06/2023/08/2023080209420647066_1.jpg/dims/optimizehttps://thumb.mtstarnews.com/06/2023/08/2023080209420647066_1.jpg/dims/optimize"
-                        class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">타겟</h5>
-                        <p class="card-text">살인자의 섬뜩한 중고거래</p>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-body-secondary">날짜</small>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="https://thumb.mtstarnews.com/06/2023/08/2023080209420647066_1.jpg/dims/optimizehttps://thumb.mtstarnews.com/06/2023/08/2023080209420647066_1.jpg/dims/optimize"
-                        class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">타겟</h5>
-                        <p class="card-text">살인자의 섬뜩한 중고거래</p>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-body-secondary">날짜</small>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="https://thumb.mtstarnews.com/06/2023/08/2023080209420647066_1.jpg/dims/optimizehttps://thumb.mtstarnews.com/06/2023/08/2023080209420647066_1.jpg/dims/optimize"
-                        class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">타겟</h5>
-                        <p class="card-text">살인자의 섬뜩한 중고거래</p>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-body-secondary">날짜</small>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="https://thumb.mtstarnews.com/06/2023/08/2023080209420647066_1.jpg/dims/optimizehttps://thumb.mtstarnews.com/06/2023/08/2023080209420647066_1.jpg/dims/optimize"
-                        class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">타겟</h5>
-                        <p class="card-text">살인자의 섬뜩한 중고거래</p>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-body-secondary">날짜</small>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="https://thumb.mtstarnews.com/06/2023/08/2023080209420647066_1.jpg/dims/optimizehttps://thumb.mtstarnews.com/06/2023/08/2023080209420647066_1.jpg/dims/optimize"
-                        class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">타겟</h5>
-                        <p class="card-text">살인자의 섬뜩한 중고거래</p>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-body-secondary">날짜</small>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
     <footer>
