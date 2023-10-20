@@ -12,6 +12,7 @@ function msgId(id){
         let div_id = document.getElementById(id);
 
         div_id.addEventListener('click', function(event){
+                //영화 id 알림창
                 alert('영화 id : '+id);
         });
 
