@@ -34,7 +34,7 @@
 }
 
 .myCards {
-    width: 1201px;
+    width: 1200px;
     margin: 30px auto 0px auto;
 }
 
@@ -47,8 +47,8 @@
     border-radius: 5px;
 }
 
-.col{
-    cursor: pointer;
+.col {
+    cursor : pointer;
 }
 
 footer{
@@ -67,7 +67,7 @@ footer{
     transform: translateX(-50%) translateY(-50%);
     border: 2px solid rgb(255, 255, 255);
     margin: 10px auto auto 100px;
-    padding: 10px 10px 10px 9px;
+    padding: 10px 10px 10px 13px;
     text-align: center;
 }
   
