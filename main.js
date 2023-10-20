@@ -127,14 +127,42 @@ function createDiv(movie_list_det){
 
         document.getElementById("card").append(cerateDiv);
 
-        /*cerateDiv.addEventListener('click', function(event){
-                alert('영화 id : '+id);
-        });*/
-
         msgId(id);
 }
+
+
+//+추가 실시간 시계
+function showTime(){
+        var date = new Date();
+        var h = date.getHours();
+        var m = date.getMinutes();
+        var s = date.getSeconds();
+        var session = "AM";
+        
+        if(h == 0){
+          h = 12;
+        }
+    
+        if(h > 12){
+          h = h - 12;
+          session = "PM";
+        }
+    
+        h = (h < 10) ? "0" + h : h;
+        m = (m < 10) ? "0" + m : m;
+        s = (s < 10) ? "0" + s : s;
+    
+        var time = h + ":" + m + ":" + s + " " + session;
+        document.getElementById("timeDisplay").innerText = time;
+        document.getElementById("timeDisplay").textContent = time;
+        document.getElementById("timeDisplay").style.fontSize = "25px";
+        setTimeout(showTime, 1000);
+}
+    
 
 window.onload = function(){
         // 페이지 열릴 때 검색함수 실행
         searchMovie();
+        showTime();
+        
 }

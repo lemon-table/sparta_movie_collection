@@ -34,7 +34,7 @@
 }
 
 .myCards {
-    width: 1201px;
+    width: 1200px;
     margin: 30px auto 0px auto;
 }
 
@@ -45,26 +45,6 @@
     padding: 20px;
     box-shadow: 0px 0px 3px 0px blue;
     border-radius: 5px;
-}
-
-.movie_search {
-    width: 500px;
-    margin: 30px auto 0px auto;
-
-    padding: 20px;
-    box-shadow: 0px 0px 3px 0px white;
-    border-radius: 5px;
-}
-
-.mybtn {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
-.mybtn>button {
-    margin-right: 5px;
 }
 
 .col {
@@ -81,4 +61,19 @@ footer{
     background-image: url('./img_film.png');
     background-position: bottom;
     background-size: cover;
+}
+
+#parent {
+    transform: translateX(-50%) translateY(-50%);
+    border: 2px solid rgb(255, 255, 255);
+    margin: 10px auto auto 100px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+}
+  
+#timeDisplay{
+    display: inline-block;
+    vertical-align: middle;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
 }
