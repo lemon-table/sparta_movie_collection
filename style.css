@@ -47,6 +47,10 @@
     border-radius: 5px;
 }
 
+.col{
+    cursor: pointer;
+}
+
 footer{
     height:100px;
     text-align: center;
